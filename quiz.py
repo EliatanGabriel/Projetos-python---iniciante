@@ -22,11 +22,11 @@ D) 100
 resposta_1 = input("Resposta: ").strip().upper()
 
 if resposta_1 == "C":
-    print("Certa resposta")
+    print("Correto")
     score += 1
 
 else:
-    print("Resposta errada")
+    print("Incorreto")
 
 # PERGUNTA 2
 print("Pergunta 2:")
@@ -42,11 +42,11 @@ D) Davi
 resposta_2 = input("Resposta: ").strip().upper()
 
 if resposta_2 == "B":
-    print("Certa resposta")
+    print("Correto")
     score += 1
 
 else:
-    print("Resposta errada")
+    print("Incorreto")
 
 # PERGUNTA 3
 print("Pergunta 3:")
@@ -62,11 +62,11 @@ D) Mateus
 resposta_3 = input("Resposta: ").strip().upper()
 
 if resposta_3 == "C":
-    print("Certa resposta")
+    print("Correto")
     score += 1
 
 else:
-    print("Resposta errada")
+    print("Incorreto")
 
 # PERGUNTA 4
 print("Pergunta 4:")
@@ -82,11 +82,11 @@ D) Josué
 resposta_4 = input("Resposta: ").strip().upper()
 
 if resposta_4 == "A":
-    print("Certa resposta")
+    print("Correto")
     score += 1
 
 else:
-    print("Resposta errada")
+    print("Incorreto")
 
 
 # PERGUNTA 5
@@ -103,11 +103,11 @@ D) Raquel
 resposta_5 = input("Resposta: ").strip().upper()
 
 if resposta_5 == "C":
-    print("Certa resposta")
+    print("Correto")
     score += 1
 
 else:
-    print("Resposta errada")
+    print("Incorreto")
 
 
 # PERGUNTA 6
@@ -124,11 +124,11 @@ D) 14
 resposta_6 = input("Resposta: ").strip().upper()
 
 if resposta_6 == "C":
-    print("Certa resposta")
+    print("Correto")
     score += 1
 
 else:
-    print("Resposta errada")
+    print("Incorreto")
 
 # PERGUNTA 7
 print("Pergunta 7:")
@@ -144,11 +144,11 @@ D) João
 resposta_7 = input("Resposta: ").strip().upper()
 
 if resposta_7 == "B":
-    print("Certa resposta")
+    print("Correto")
     score += 1
 
 else:
-    print("Resposta errada")
+    print("Incorreto")
 
 # PERGUNTA 8
 print("Pergunta 8:")
@@ -164,11 +164,11 @@ D) Ressurreição de Lázaro
 resposta_8 = input("Resposta: ").strip().upper()
 
 if resposta_8 == "C":
-    print("Certa resposta")
+    print("Correto")
     score += 1
 
 else:
-    print("Resposta errada")
+    print("Incorreto")
 
 
 # PERGUNTA 9
@@ -185,11 +185,11 @@ D) Josué
 resposta_9 = input("Resposta: ").strip().upper()
 
 if resposta_9 == "B":
-    print("Certa resposta")
+    print("Correto")
     score += 1
 
 else:
-    print("Resposta errada")
+    print("Incorreto")
 
 # PERGUNTA 10
 print("Pergunta 10:")
@@ -205,11 +205,11 @@ D) Romanos
 resposta_10 = input("Resposta: ").strip().upper()
 
 if resposta_10 == "C":
-    print("Certa resposta")
+    print("Correto")
     score += 1
 
 else:
-    print("Resposta errada")
+    print("Incorreto")
 
 # PONTUAÇÃO
 print("\nQuiz acabou!")
