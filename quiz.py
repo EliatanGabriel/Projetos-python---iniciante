@@ -1,7 +1,7 @@
 print("Seja muito bem-vindo ao quiz dos Conhecimentos Bíblicos")
 resposta_usuario = input("Quer começar o quiz? (S/N): ").strip().upper()
 
-if resposta_usuario.upper() != "S":
+if resposta_usuario != "S":
     quit()
 
 score = 0
@@ -21,12 +21,19 @@ D) 100
 
 resposta_1 = input("Resposta: ").strip().upper()
 
+while resposta_1 not in ["A", "B", "C", "D"]:
+    print("Resposta inválida! Digite apenas A, B, C ou D.")
+    resposta_1 = input("Resposta: ").strip().upper()
+
 if resposta_1 == "C":
     print("Correto")
     score += 1
 
 else:
     print("Incorreto")
+    print("A resposta correta era C) 66")
+
+print(f"Pontuação atual: {score}/1")
 
 # PERGUNTA 2
 print("Pergunta 2:")
@@ -41,12 +48,19 @@ D) Davi
 
 resposta_2 = input("Resposta: ").strip().upper()
 
+while resposta_2 not in ["A", "B", "C", "D"]:
+    print("Resposta inválida! Digite apenas A, B, C ou D.")
+    resposta_2 = input("Resposta: ").strip().upper()
+
 if resposta_2 == "B":
     print("Correto")
     score += 1
 
 else:
     print("Incorreto")
+    print("A resposta correta é B) Noé")
+
+print(f"Pontuação atual: {score}/2")
 
 # PERGUNTA 3
 print("Pergunta 3:")
@@ -61,17 +75,24 @@ D) Mateus
 
 resposta_3 = input("Resposta: ").strip().upper()
 
+while resposta_3 not in ["A", "B", "C", "D"]:
+    print("Resposta inválida! Digite apenas A, B, C ou D.")
+    resposta_3 = input("Resposta: ").strip().upper()
+
 if resposta_3 == "C":
     print("Correto")
     score += 1
 
 else:
     print("Incorreto")
+    print("A resposta correta é C) Gênesis")
+
+print(f"Pontuação atual: {score}/3")
 
 # PERGUNTA 4
 print("Pergunta 4:")
 print("""
-QQuem derrotou o gigante Golias?
+Quem derrotou o gigante Golias?
 
 A) Davi
 B) Salomão
@@ -81,12 +102,19 @@ D) Josué
 
 resposta_4 = input("Resposta: ").strip().upper()
 
+while resposta_4 not in ["A", "B", "C", "D"]:
+    print("Resposta inválida! Digite apenas A, B, C ou D.")
+    resposta_4 = input("Resposta: ").strip().upper()
+
 if resposta_4 == "A":
     print("Correto")
     score += 1
 
 else:
     print("Incorreto")
+    print("A resposta correta é A) Davi")
+
+print(f"Pontuação atual: {score}/4")
 
 
 # PERGUNTA 5
@@ -102,12 +130,19 @@ D) Raquel
 
 resposta_5 = input("Resposta: ").strip().upper()
 
+while resposta_5 not in ["A", "B", "C", "D"]:
+    print("Resposta inválida! Digite apenas A, B, C ou D.")
+    resposta_5 = input("Resposta: ").strip().upper()
+
 if resposta_5 == "C":
     print("Correto")
     score += 1
 
 else:
     print("Incorreto")
+    print("A resposta correta é C) Maria")
+
+print(f"Pontuação atual: {score}/5")
 
 
 # PERGUNTA 6
@@ -123,12 +158,19 @@ D) 14
 
 resposta_6 = input("Resposta: ").strip().upper()
 
+while resposta_6 not in ["A", "B", "C", "D"]:
+    print("Resposta inválida! Digite apenas A, B, C ou D.")
+    resposta_6 = input("Resposta: ").strip().upper()
+
 if resposta_6 == "C":
     print("Correto")
     score += 1
 
 else:
     print("Incorreto")
+    print("A resposta correta é C) 12")
+
+print(f"Pontuação atual: {score}/6")
 
 # PERGUNTA 7
 print("Pergunta 7:")
@@ -143,12 +185,19 @@ D) João
 
 resposta_7 = input("Resposta: ").strip().upper()
 
+while resposta_7 not in ["A", "B", "C", "D"]:
+    print("Resposta inválida! Digite apenas A, B, C ou D.")
+    resposta_7 = input("Resposta: ").strip().upper()
+
 if resposta_7 == "B":
     print("Correto")
     score += 1
 
 else:
     print("Incorreto")
+    print("A resposta correta é B) Judas Iscariotes")
+
+print(f"Pontuação atual: {score}/7")
 
 # PERGUNTA 8
 print("Pergunta 8:")
@@ -163,13 +212,19 @@ D) Ressurreição de Lázaro
 
 resposta_8 = input("Resposta: ").strip().upper()
 
+while resposta_8 not in ["A", "B", "C", "D"]:
+    print("Resposta inválida! Digite apenas A, B, C ou D.")
+    resposta_8 = input("Resposta: ").strip().upper()
+
 if resposta_8 == "C":
     print("Correto")
     score += 1
 
 else:
     print("Incorreto")
+    print("A resposta correta é C) Transformação da água em vinho")
 
+print(f"Pontuação atual: {score}/8")
 
 # PERGUNTA 9
 print("Pergunta 9:")
@@ -184,12 +239,19 @@ D) Josué
 
 resposta_9 = input("Resposta: ").strip().upper()
 
+while resposta_9 not in ["A", "B", "C", "D"]:
+    print("Resposta inválida! Digite apenas A, B, C ou D.")
+    resposta_9 = input("Resposta: ").strip().upper()
+
 if resposta_9 == "B":
     print("Correto")
     score += 1
 
 else:
     print("Incorreto")
+    print("A resposta correta é B) Moisés")
+
+print(f"Pontuação atual: {score}/9")
 
 # PERGUNTA 10
 print("Pergunta 10:")
@@ -204,14 +266,36 @@ D) Romanos
 
 resposta_10 = input("Resposta: ").strip().upper()
 
+while resposta_10 not in ["A", "B", "C", "D"]:
+    print("Resposta inválida! Digite apenas A, B, C ou D.")
+    resposta_10 = input("Resposta: ").strip().upper()
+
 if resposta_10 == "C":
     print("Correto")
     score += 1
 
 else:
     print("Incorreto")
+    print("A resposta correta é C) Apocalipse")
+
+print(f"Pontuação atual: {score}/10")
 
 # PONTUAÇÃO
 print("\nQuiz acabou!")
 print(f"Você acertou {score} de 10 perguntas.")
 print(f"Pontuação: {score}/10")
+
+if score <= 3:
+    print("Você precisa estudar um pouco mais!")
+
+elif score <= 6:
+    print("Bom trabalho! Continue estudando.")
+
+elif score <= 8:
+    print("Muito bom! Você conhece bastante!")
+
+elif score == 9:
+    print("Excelente resultado!")
+
+else:
+    print("Perfeito! Você acertou todas!")
